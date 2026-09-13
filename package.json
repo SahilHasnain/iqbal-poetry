@@ -1,5 +1,5 @@
 {
-  "name": "naat-collection",
+  "name": "iqbal-poetry",
   "main": "expo-router/entry",
   "version": "1.0.0",
   "scripts": {
@@ -11,8 +11,11 @@
     "lint": "expo lint"
   },
   "dependencies": {
+    "@expo-google-fonts/noto-nastaliq-urdu": "^0.4.2",
     "@expo/vector-icons": "^15.0.3",
+    "@react-native-async-storage/async-storage": "2.2.0",
     "expo": "^57.0.0",
+    "expo-asset": "~57.0.17",
     "expo-constants": "~57.0.18",
     "expo-font": "~57.0.4",
     "expo-haptics": "~57.0.3",
@@ -44,5 +47,21 @@
     "tailwindcss": "^3.4.17",
     "typescript": "~6.0.3"
   },
-  "private": true
+  "private": true,
+  "description": "This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).",
+  "directories": {
+    "doc": "docs",
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SahilHasnain/iqbal-poetry.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SahilHasnain/iqbal-poetry/issues"
+  },
+  "homepage": "https://github.com/SahilHasnain/iqbal-poetry#readme"
 }
